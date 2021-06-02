@@ -12,7 +12,7 @@ export interface Order {
   price: number
 }
 
-nterface CartProductRowProps {
+interface CartProductRowProps {
   order: Order;
   calculateTotal: () => void;
 }

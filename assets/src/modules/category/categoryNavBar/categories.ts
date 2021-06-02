@@ -1,3 +1,4 @@
+//Ilija Jankovic 1508526
 export const categories = {
   cooks: "Cookbooks",
   database: "Database",

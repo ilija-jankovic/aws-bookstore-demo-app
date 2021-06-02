@@ -1,3 +1,4 @@
+//Ilija Jankovic 1508526
 export default {
   apiGateway: {
     REGION: "us-east-1",

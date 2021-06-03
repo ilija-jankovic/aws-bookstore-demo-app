@@ -54,7 +54,7 @@ export default class PastPurchases extends Component<PastPurchasesProps, PastPur
 
   getPrettyDate = (orderDate: number) => {
     const date = new Date(orderDate);
-    return `${date.getDay()}/${date.getDate()}/${date.getFullYear()} ${date.getHours()}:${date.getMinutes() < 10 ? '0' : ''}${date.getMinutes()}`
+    return `${date.getMonth()}/${date.getDate()}/${date.getDay()} ${date.getHours()}:${date.getMinutes() < 10 ? '0' : ''}${date.getMinutes()}`
   }
 
   render() {

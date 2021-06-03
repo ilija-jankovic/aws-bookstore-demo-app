@@ -79,8 +79,8 @@ export default class PastPurchases extends Component<PastPurchasesProps, PastPur
           }
           
           <div className="well-bs no-margin-top no-padding col-md-12">
-          <a href="/best"><img src={bestSellers} alt="Best sellers" className="checkout-img no-padding" /></a>
-          <a href="/cart"><img src={yourshoppingcart} alt="Shopping car" className="checkout-img no-padding" /></a>
+          <a href="/best"><img src={bestSellers} alt="" className="checkout-img no-padding" /></a>
+          <a href="/cart"><img src={yourshoppingcart} alt="" className="checkout-img no-padding" /></a>
           
           </div>
         </div>

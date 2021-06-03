@@ -37,8 +37,7 @@
     ],
     "moduleFileExtensions": [
       "py"
-    ],
-    "verbose": true
+    ]
   },
   "devDependencies": {},
   "browserslist": [
